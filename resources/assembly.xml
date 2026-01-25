@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package version="2.1" id="{a064c68c-582f-4e18-936f-d322c1732594}" target="Five">
+	<metadata>
+		<name>Dual Wield: Reboot</name>
+		<version>
+			<major>2</major>
+			<minor>3</minor>
+			<tag>Release</tag>
+		</version>
+		<author>
+			<displayName>mbahdokek</displayName>
+		</author>
+		<description><![CDATA[Installer for Dual Wield: Reboot v2.3!
+		Please read the mod description carefully on the website
+		Custom config is available in the DualWield.ini
+]]></description>
+	</metadata>
+	<colors>
+		<headerBackground useBlackTextColor="True">$0016588F</headerBackground>
+		<iconBackground>$FFFF00FF</iconBackground>
+	</colors>
+	<content>
+		<!-- Scripts -->
+		<add source="DualWield.dll">scripts\DualWield.dll</add>
+		<add source="DualWield.ini">scripts\DualWield.ini</add>
+		<add source="DismembermentASI.asi">DismembermentASI.asi</add>
+		<!-- RPF -->
+		<archive path="x64c.rpf" createIfNotExist="True" type="RPF7">
+		<archive path="\anim\ingame\clip_melee@.rpf" createIfNotExist="True" type="RPF7">
+		<add source="wfire_mbahdokek_dualwield@small_gun_core.ycd">wfire_mbahdokek_dualwield@small_gun_core.ycd</add>
+		<add source="wfire_mbahdokek_dualwield@gangsta_gun_core.ycd">wfire_mbahdokek_dualwield@gangsta_gun_core.ycd</add>
+		<add source="wfire_mbahdokek_dualwield@long_gun_core_rm.ycd">wfire_mbahdokek_dualwield@long_gun_core_rm.ycd</add>
+		<add source="wfire_mbahdokek_dualwield@mg_core_rm.ycd">wfire_mbahdokek_dualwield@mg_core_rm.ycd</add>
+		<add source="wfire_mbahdokek_dualwield@minigun_core_rm.ycd">wfire_mbahdokek_dualwield@minigun_core_rm.ycd</add>
+		<add source="wfire_mbahdokek_dualwield@rpg_core_rm.ycd">wfire_mbahdokek_dualwield@rpg_core_rm.ycd</add>
+		</archive>
+		</archive>
+	</content>
+</package>

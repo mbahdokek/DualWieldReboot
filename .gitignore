@@ -1,8 +1,17 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Ignore all .vs folders recursively
+**/.vs/
 
-/.vs
-/.idea
-/bin
-/obj
+# Ignore IDE/editor files
+**/.idea/
+
+# Ignore Git metadata in nested repos
+**/.git/
+
+# Ignore build output directories
+**/bin/
+**/obj/
+
+# Ignore generated OIV packages
+*.oiv
+
+resources/content/DualWield.dll
